@@ -32,3 +32,33 @@ function groupEmployeesByDepartment(employees) {
 const groupedEmployees = groupEmployeesByDepartment(funcionarios)
 
 console.log(groupedEmployees)
+
+/*Relatório de vendas por categoria
+
+Você recebe uma lista de produtos vendidos no mês
+
+Tarefa:
+Agrupar os produtos por categoria e calcular o faturamento total de cada categoria.
+*/
+const vendas = [
+  { produto: "Notebook", categoria: "Eletrônicos", preco: 3500 },
+  { produto: "Mouse", categoria: "Eletrônicos", preco: 120 },
+  { produto: "Teclado", categoria: "Eletrônicos", preco: 200 },
+  { produto: "Camisa", categoria: "Vestuário", preco: 80 },
+  { produto: "Calça", categoria: "Vestuário", preco: 150 },
+  { produto: "Tênis", categoria: "Vestuário", preco: 300 }
+];
+
+function getValueByCategory(vendas) {
+  return vendas.reduce((acc, product) => {
+    const category = product.categoria
+
+    acc[category] = (acc[category] || 0) + product.preco
+    return acc
+
+  }, {})
+}
+
+const productByCategory = getValueByCategory(vendas)
+
+console.log({ productByCategory })
