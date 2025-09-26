@@ -29,6 +29,7 @@ A ideia é manter uma trilha organizada e padronizada, servindo como referência
     ```
 **Os scripts serão executados no terminal**
 
+---
 
 ## 📂 Estrutura do Projeto
 ```bash
@@ -52,6 +53,7 @@ A ideia é manter uma trilha organizada e padronizada, servindo como referência
     └── exercises.js
  └── README.md
 ```
+---
 
 # Progresso e registro
 
@@ -72,6 +74,8 @@ Estou revisando e estudando novamente desde a base da programação para consoli
 - Revisitei conceitos fundamentais de arrays e objetos
 - Fixei práticas de manipulação de estruturas de dados
 - Reforcei a importância de dominar bem o básico antes de avançar
+
+---
 
 ## 🚀 Promise e Async/await - 25/09/2025
 
