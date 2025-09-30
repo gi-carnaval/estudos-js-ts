@@ -94,3 +94,22 @@ Pois o assincronismo é um dos pilares do Javascript moderno, e dominar as ferra
 - Diferenças entre trabalhar com `then`/`catch` e `async`/`await`
 - Importância de otimizar a performance paralelizando requisições com `Promise.all`
 - Melhor compreensão do funcionamento interno ao declarar funções assíncronas e utilizar `await`
+
+## 🚀 Árvore Binária em JS - 29/09/2025
+
+### 📌 Contexto
+Estudei árvores binárias para revisar essa estrutura de dados e entender melhor seu funcionamento e aplicações.
+
+### 🎯 Objetivo
+- Revisar os conceitos de implementação de árvores binárias
+- Consolidar o entendimento de suas funcionalidades
+- Praticar a lógica de manipulação dessa estrutura
+
+### 🛠️ Tecnologias / Ferramentas
+- JavaScript (com classes)
+
+### 📖 O que aprendi
+- Reforcei o entendimento de como árvores binárias funcionam
+- Implementei funções principais como `insert`, `search` e `delete`
+- Revisei diferentes formas de implementação e escolhi utilizar **recursividade**
+- Superei a dificuldade de relembrar os fluxos e a lógica dessa estrutura
